@@ -23,9 +23,20 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+    Web accessibility is creating web pages and making the internet accessible to all people, regardless of how they access the page. This means making it possible for those with slow internet connection, those on mobile devices, those with hearing or vison or any other disabilities to use the website with any user interface problems. 
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+    One of the simplest ways to make sure your website is accessible is to use responsive units. We touched on these already, but scalable units are really important in terms of accessibility. As a web developer, it is important to make sure that your tags are semantic so that users who rely on screen readers can navigate accordingly. Close to 5% of the population of the United States (about 13 million people) is colorblind. To avoid this issue, every colorfully displayed component should have a visual counterpart.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+     A variable is a way to store, change and use data in code. To explain this concept, consider your favorite webpage: maybe it's instagram, maybe an online game. More than likely, there are lots of changing pieces on these pages - instagram has likes and usernames, a video game has character selection, game score, and many more - every one of those changing bits of data is stored in a variable. 
+
 4. What is the purpose of using functions in code?
+
+    Functions allow us to write code that will be used over and over again. Functions allow you, the developer, to repeat sections of code with just a single line.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
