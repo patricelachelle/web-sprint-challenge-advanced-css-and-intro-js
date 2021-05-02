@@ -228,9 +228,12 @@ There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is current
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(/*Your Code Here*/) {
-  /*Your Code Here*/
-}  
+function getArtistByIndex(artists) {
+    
+    return `the artist at index ${artists[0].id} is ${artists[0].name}` 
+      
+} 
+
 
 
 
@@ -242,11 +245,11 @@ Use get20s to do the following:
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-function get20s(/*Your Code Here*/) {
-    /*Your Code Here*/
-}
+function get20s(artists) {
+    if (artists[0].years.includes("1900-2000"))
 
-
+      return artists.name
+  }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
  Use removeArtist to do the following:
@@ -278,8 +281,15 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(artists){
+    artists.id = 20,
+    artists.name = "Patrice Brown", 
+    artists.years = "1978-2021",
+    artists.genre = "Web Design", 
+    artists.nationality = "American"
+    artists.bio = "lorem ipsum,lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum"
+
+    return artists
   }
 
   
@@ -291,8 +301,10 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/){
-  /*Your Code Here*/
+function lotsOfArt(artists) {
+    if (artists.paintings > 100) {
+      return artists.name
+    }
 }
 
 
